@@ -1,0 +1,11 @@
+version: 2
+
+
+sources:
+  - name: raw
+    database: dbt_core
+    schema: raw
+    tables:
+      - name: employee_details
+      - name: item
+      - name: store
